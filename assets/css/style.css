@@ -67,7 +67,7 @@ and ensure that the padding is taken away. */
   /*Footer background color: #666666*/
   background-color: #666666;
   text-align: center;
-  border-top: 8px solid #4aaaa5;
+  border-top: 8px solid  #005587;
   /*The entire content and the main section content area is 960px wide.*/
   width: 100%;
   /* padding-top: 35px; */
@@ -80,7 +80,8 @@ and ensure that the padding is taken away. */
 
 button,
 .background-teal {
-  background-color: #4aaaa5;
+  /* background-color: #4aaaa5; */
+  background: linear-gradient(to right, #005587 0%, #8BB8E8 100%)
 }
 
 button,
@@ -124,12 +125,17 @@ h1 {
   font-size: 2rem;
 }
 
+
+
 h2,
-.text-teal {
-  color: #4aaaa5;
+.text-blue {
+  color: #005587;
+  /* background: linear-gradient(to right, #005587 0%, #8BB8E8 100%) */
   /*Reduce the font size to be smaller than h1.*/
   font-size: 1.8rem;
 }
+
+
 
 a,
 p,
@@ -276,4 +282,10 @@ input {
 .col-md-6,
 .col-md-1 {
   padding: 0;
+}
+
+
+.blue-gradient {
+
+  background: linear-gradient(to right, #005587 0%, #8BB8E8 100%)
 }
