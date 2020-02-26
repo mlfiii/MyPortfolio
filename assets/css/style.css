@@ -158,6 +158,7 @@ img {
   float: left;
   width: 100%;
   height: 100%;
+  
 }
 
 .index-picture-1-section {
@@ -166,6 +167,7 @@ img {
   float: left;
   padding-left: 20px;
   padding-right: 20px;
+
 }
 
 p {
@@ -260,7 +262,7 @@ input {
 
 #portfolio-picture-label1 {
   height: 40px;
-  background-color: #4aaaa5;
+  background-color: #FFD100;
   width: 100%;
   text-align: center;
   padding-top: 8px;
@@ -287,10 +289,10 @@ input {
 
 .blue-gradient {
 
-  background: linear-gradient(to right, #005587 0%, #8BB8E8 100%)
+  background: linear-gradient(to right, #2774AE 0%, #8BB8E8 100%);
 }
 
-.text-ucla-gold{
+.text-ucla-blue{
 
-  color: #FFD100;
+  color: #2774AE;
 }
